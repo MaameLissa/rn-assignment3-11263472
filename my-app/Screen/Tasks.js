@@ -36,7 +36,7 @@ const categories = [
   },
   { id: "5", 
   title: "Paint",
-  task: 10,
+  task:  10,
     image: require("../assets/Paint.jpg") },
   {
     id: "6",
@@ -138,6 +138,7 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     padding: 20,
     backgroundColor:'#F7F0E8',
+    width: 380,
   },
   searchInput: {
     flex: 1,
@@ -166,9 +167,10 @@ const styles = StyleSheet.create({
       width: 40,
       height: 40,
       backgroundColor: '#F0522F',
-      top: 7,
+      top: 6,
+      left: 10,
     },
-  
+   
   categoriesContainer: {
     flexDirection: "row",
     padding: 19,
