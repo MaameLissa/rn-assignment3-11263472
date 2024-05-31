@@ -1,12 +1,13 @@
+import react from 'react'
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, ScrollView, View, SafeAreaView, FlatList, Image, TextInput, Button} from 'react-native';
-import  Header  from  "./components/Header";
+import  SearchBar  from  "./components/SearchBar";
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Header/>
-      <Text>Open up App working on your app!</Text>
+      <SearchBar/>
+      <Text></Text>
       <StatusBar style="auto" />
     </View>
   );
@@ -15,7 +16,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#F7F0E8',
     alignItems: 'center',
     justifyContent: 'center',
   },
