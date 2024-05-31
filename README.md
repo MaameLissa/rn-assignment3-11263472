@@ -1,13 +1,13 @@
-<li>
-<ol>View: Utilized to construct a container that holds other components./</ol>
-<ol>Text: Employed to show text elements.<ol/>
-ScrollView: Implemented to create a container that can be scrolled.
-TextInput: Applied to generate an input field for search functionality.
-Button: Utilized to create a clickable button element.
-FlatList: Used to efficiently render a list of tasks.
-Image: Employed to display icons and images for categories.
-Stylesheet: Applied to style the components of the application.
-<li/>
+
+#View: Utilized to construct a container that holds other components.
+#Text: Employed to show text elements.
+#ScrollView: Implemented to create a container that can be scrolled.
+#TextInput: Applied to generate an input field for search functionality.
+#Button: Utilized to create a clickable button element.
+#FlatList: Used to efficiently render a list of tasks.
+#Image: Employed to display icons and images for categories.
+#Stylesheet: Applied to style the components of the application.
+
 
 #![Sccreenshot3](https://github.com/MaameLissa/rn-assignment3-11263472/assets/170031712/d2d6d8f7-0f42-4177-af52-b82853c21231)
 #![Sccreenshot4](https://github.com/MaameLissa/rn-assignment3-11263472/assets/170031712/030a1753-706f-4a56-9942-e1cb8a8d0eb0)
