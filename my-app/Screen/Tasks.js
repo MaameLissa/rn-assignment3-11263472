@@ -15,57 +15,57 @@ const categories = [
   {
     id: "1",
     title: "Exercise",
-    tasks: 1,
+    task: 4,
     image: require("../assets/Exercise.png"),
   },
   {
     id: "2",
     title: "Study",
-    tasks: 2,
+    task: 4,
     image: require("../assets/study.png"),
   },
   { id: "3", 
   title: "Movies",
-  tasks: 3,
+  task: 4,
   image: require("../assets/Animation.jpg") },
   {
     id: "4",
     title: "Meditate",
-    tasks: 5,
+    task: 4,
     image: require("../assets/Meditate.jpg"),
   },
   { id: "5", 
   title: "Paint",
-   tasks: 6,
+  task: 4,
     image: require("../assets/Paint.jpg") },
   {
     id: "6",
+    task: 4,
     title: "Sleep",
-    tasks: 7,
     image: require("../assets/sleep.jpg"),
   },
   {
     id: "7",
+    task: 4,
     title: "Travel",
-    tasks: 7,
     image: require("../assets/Travel.jpg"),
   },
   {
     id: "8",
     title: "Health",
-    tasks: 8,
+    task: 4,
     image: require("../assets/Health.jpg"),
   },
   {
     id: "9",
     title: "Cook",
-    tasks: 9,
+    task: 4,
     image: require("../assets/cook.jpg"),
   },
   {
     id: "10",
     title: "Code",
-    tasks: 10,
+    task: 4,
     image: require("../assets/code.jpg"),
   },
 ];
@@ -137,22 +137,23 @@ const styles = StyleSheet.create({
   searchContainer: {
     flexDirection: "row",
     padding: 20,
-    backgroundColor: "#fff",
+    backgroundColor:'#F7F0E8',
   },
   searchInput: {
     flex: 1,
-    fontSize: 24,
-    padding: 10,
+    fontSize: 15,
+    padding: 9,
     borderWidth: 1,
     borderColor: "Yellow",
     borderRadius: 10,
+    
   },
   textUpdate: {
-    fontSize: 26,
+    fontSize: 23,
     padding: 20,
   },
   testUpdate: {
-    fontSize: 26,
+    fontSize: 20,
     width: 170,
     height: 37,
     color: "#000000",
@@ -163,6 +164,8 @@ const styles = StyleSheet.create({
   },
   categoriesContainer: {
     flexDirection: "row",
+    padding: 19,
+    
   },
   tasksContainer: {
     padding: 20,
@@ -172,7 +175,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#fff",
     borderRadius: 10,
     marginVertical: 10,
-    elevation: 3,
+    elevation:2,
   },
 });
 

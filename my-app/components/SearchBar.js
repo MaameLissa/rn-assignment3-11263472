@@ -6,7 +6,7 @@ const SearchBar = ({ name, taskCount }) => {
   return (
     <View style={styles.container}>
       <Text style={styles.greeting}>Hello , MuseCorp {name}</Text>
-      <Text style={styles.taskCount}>{taskCount} 14 tasks today</Text>
+      <Text style={styles.taskCount}>15 tasks today</Text>
       <Image source={require('../assets/usericon.png')} style={styles.icon} />
     </View>
   );
@@ -19,22 +19,22 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     padding: 20,
     backgroundColor: '#F7F0E8',
-    bottom: 10,
+    bottom: 5,
   
   },
   greeting: {
-    fontSize: 23,
+    fontSize: 17,
     fontFamily: Lato,
-    lineHeight: 38.4,
+    lineHeight: 34,
   },
   taskCount: {
     fontSize: 10,
     color: '#000000',
     width: 100,
-    height: 16,
-    right: 175,
+    height: 21,
+    right: 195,
     fontfamily: Lato,
-    top: 21,
+    top: 20,
  
   },
   icon: {
