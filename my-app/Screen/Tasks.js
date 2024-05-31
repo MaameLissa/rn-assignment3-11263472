@@ -2,9 +2,9 @@ import React from "react";
 import {
   View,
   ScrollView,
+  Image,
   StyleSheet,
   TextInput,
-  Button,
   FlatList,
   Text,
 } from "react-native";
@@ -21,51 +21,51 @@ const categories = [
   {
     id: "2",
     title: "Study",
-    task: 4,
+    task: 6,
     image: require("../assets/study.png"),
   },
   { id: "3", 
   title: "Movies",
-  task: 4,
+  task: 19,
   image: require("../assets/Animation.jpg") },
   {
     id: "4",
     title: "Meditate",
-    task: 4,
+    task: 3,
     image: require("../assets/Meditate.jpg"),
   },
   { id: "5", 
   title: "Paint",
-  task: 4,
+  task: 10,
     image: require("../assets/Paint.jpg") },
   {
     id: "6",
-    task: 4,
+    task: 13,
     title: "Sleep",
     image: require("../assets/sleep.jpg"),
   },
   {
     id: "7",
-    task: 4,
+    task: 24,
     title: "Travel",
     image: require("../assets/Travel.jpg"),
   },
   {
     id: "8",
     title: "Health",
-    task: 4,
+    task: 14,
     image: require("../assets/Health.jpg"),
   },
   {
     id: "9",
     title: "Cook",
-    task: 4,
+    task: 9,
     image: require("../assets/cook.jpg"),
   },
   {
     id: "10",
     title: "Code",
-    task: 4,
+    task: 8,
     image: require("../assets/code.jpg"),
   },
 ];
@@ -94,7 +94,7 @@ const Tasks = () => {
       <SearchBar />
       <View style={styles.searchContainer}>
         <TextInput style={styles.searchInput} placeholder="Search" />
-        <Button title="Filter" onPress={() => {}} />
+        <Image source={require('../assets/filter.png')} style={styles.filter} />
       </View>
       <Text style={styles.testUpdate}>Categories</Text>
       <ScrollView
@@ -162,6 +162,13 @@ const styles = StyleSheet.create({
   horizontalScroll: {
     paddingVertical: 10,
   },
+    filter: {
+      width: 40,
+      height: 40,
+      backgroundColor: '#F0522F',
+      top: 7,
+    },
+  
   categoriesContainer: {
     flexDirection: "row",
     padding: 19,
