@@ -1,13 +1,12 @@
-import react from 'react'
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, ScrollView, View, SafeAreaView, FlatList, Image, TextInput, Button} from 'react-native';
-import  SearchBar  from  "./components/SearchBar";
-
+import { StatusBar } from "expo-status-bar";
+import { StyleSheet, Text, View } from "react-native";
+import React from "react";
+import Tasks from "./Screen/Tasks";
 export default function App() {
   return (
     <View style={styles.container}>
-      <SearchBar/>
-      <Text></Text>
+      <Tasks />
+
       <StatusBar style="auto" />
     </View>
   );
@@ -16,8 +15,8 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#F7F0E8',
-    alignItems: 'center',
-    justifyContent: 'center',
+    backgroundColor: "#F7F0E8",
+    alignItems: "center",
+    justifyContent: "center",
   },
 });
