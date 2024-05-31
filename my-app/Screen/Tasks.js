@@ -150,11 +150,11 @@ const styles = StyleSheet.create({
     
   },
   textUpdate: {
-    fontSize: 23,
-    padding: 20,
+    fontSize: 20,
+    padding: 10,
   },
   testUpdate: {
-    fontSize: 20,
+    fontSize: 19,
     width: 170,
     height: 37,
     color: "#000000",
@@ -170,17 +170,21 @@ const styles = StyleSheet.create({
       top: 6,
       left: 10,
     },
-   
+    tasks:{
+     fontSize: 10,
+    },
+  
   categoriesContainer: {
     flexDirection: "row",
     padding: 19,
     
   },
   tasksContainer: {
-    padding: 20,
+    padding: 10,
+    margin: 5,
   },
   taskItem: {
-    padding: 20,
+    padding: 60,
     backgroundColor: "#fff",
     borderRadius: 10,
     marginVertical: 10,
